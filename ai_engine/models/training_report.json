@@ -1,0 +1,61 @@
+{
+  "trained_at": "2026-05-17 10:35:04",
+  "model_version": "v1.0",
+  "metrics": {
+    "isolation_forest": {
+      "f1_score": 0.0032,
+      "n_train_normal": 2500,
+      "n_total": 3000
+    },
+    "thresholds": {
+      "heart_rate": {
+        "mean": 69.59,
+        "std": 1.44,
+        "p5": 67.0,
+        "p95": 71.9,
+        "min": 66.5,
+        "max": 73.8
+      },
+      "spo2": {
+        "mean": 97.3,
+        "std": 0.4,
+        "p5": 96.4,
+        "p95": 97.5,
+        "min": 96.3,
+        "max": 97.6
+      },
+      "bp_systolic": {
+        "mean": 120.04,
+        "std": 0.74,
+        "p5": 119.0,
+        "p95": 121.0,
+        "min": 119.0,
+        "max": 123.0
+      },
+      "bp_diastolic": {
+        "mean": 80.8,
+        "std": 2.11,
+        "p5": 79.0,
+        "p95": 85.0,
+        "min": 79.0,
+        "max": 86.0
+      },
+      "resp_rate": {
+        "mean": 17.31,
+        "std": 2.32,
+        "p5": 15.8,
+        "p95": 22.0,
+        "min": 15.6,
+        "max": 22.3
+      },
+      "temperature": {
+        "mean": 36.96,
+        "std": 0.31,
+        "p5": 36.8,
+        "p95": 37.6,
+        "min": 36.8,
+        "max": 37.6
+      }
+    }
+  }
+}
